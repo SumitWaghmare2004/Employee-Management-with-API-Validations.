@@ -1,0 +1,155 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header styling */
+/* .header {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+} */
+
+.header {
+    width: 100%;
+    padding: 0px 30px;
+    background: black;
+}
+
+.header h5 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: hotpink;
+}
+
+
+
+/* Upper box styling */
+.upper_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.left_box button, .right_box button {
+    margin: 5px;
+}
+
+/* Table styling */
+.table-wrapper {
+    margin: 20px;
+    overflow-x: auto;
+}
+
+.table-box {
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list th, .list td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Card styling */
+.card-body {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* .card-body {
+    visibility: hidden;
+    opacity: 1;
+    z-index: -1;
+    background-color: #239bff;
+    width: 690px;
+    height: 450px;
+    padding: auto;
+    text-align: left;
+    border-radius: 50px;
+} */
+
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Centering content */
+center {
+    display: block;
+    text-align: center;
+}
+
+#addBtn:hover {
+    filter: drop-shadow(0 0 5px);
+    overflow: hidden;
+    display: block;
+    transition-delay: 0.5s;
+    background: #239bff;
+    color: #255784;
+    box-shadow: 0 0 20px #239bff,
+        0 0 80px #239bff,
+        0 0 160px #239bff,
+        0 0 32px #239bff,
+}
+
+#search-btn:hover {
+
+    filter: drop-shadow(0 0 5px);
+    overflow: hidden;
+    transition-delay: 0.5s;
+    background: #239bff;
+    color: #255784;
+    box-shadow: 0 0 20px #239bff,
+        0 0 80px #239bff,
+        0 0 160px #239bff,
+        0 0 32px #239bff,
+}
+
